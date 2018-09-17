@@ -19,17 +19,19 @@
 
     </head>
     <body onload="initApplication()">
-        <h1>Hello World - BPS v1.1</h1> 
-        <p style="color:orangered;">An old silent pond...<br>
-            A frog jumps into the pond,<br>
-            splash! Silence again.<br>
-            
-            Autumn moonlight—<br>
-            a worm digs silently<br>
-            into the chestnut.<br>
-            
-            In the twilight rain<br>
-            these brilliant-hued hibiscus —<br>
-            A lovely sunset.<br> </p>
+        <h1>Welcome to my website - BPS v1.1</h1> 
+        <button type="button" onclick="RollSixSidedDice()">Roll Dice</button><br><br>
+        Six Sided Dice: <input id="dice" type="text" value="" size="5" disabled><br><br>
+
+        X: <input id="xID" type="text" value="1" size="5"><br>
+        Y: <input id="yID" type="text" value="1" size="5"><br>
+        <button type="button" onclick="DoCalculations()">Do Calculations</button><br><br>
+
+        Math Results:<p id="mathResultsID"></p>
+
+        <a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank">Input Types (W3C)</a><br>
+        Number: <input type="number" name="quantity" min="0" max="9"><br>
+        Date: <input type="date" name="bday"><br>
+
     </body>
 </html>
